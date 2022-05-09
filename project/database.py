@@ -7,7 +7,7 @@ from tortoise.contrib.fastapi import register_tortoise
 
 logger = logging.getLogger(__name__)
 
-MODELS = ["models", "ihame.models"]
+MODELS = ["models", "Book.models"]
 
 
 async def init_db(app: FastAPI) -> None:
